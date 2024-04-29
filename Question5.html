@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML forms Example</title>
+</head>
+<body>
+    
+  <form action="summary.php" method="post">
+    
+    <Fieldset>
+     <legend>Academic information</legend> 
+    <br>
+<label > Degree</label>
+<select><OPTIOn>Master of business Administration</OPTIOn></select>
+<br>
+<LAbel>Student ID</LAbel>
+<input type="text" name="StudentID" >
+<br>
+<label>class attended</label>
+<select>
+ 
+  <option value="geography">geography</option>
+  <option value="mathematics">mathematics</option>
+  <option value="english">english</option>
+</select>
+
+    </Fieldset>
+
+<Fieldset>
+  <legend>personal details</legend> <br>
+
+  <label>Firstname</label>
+  <input type="text" name="Firstname" >
+  <br>
+  <label >last name</label>
+  <input type="text" name="lastname">
+  <br>
+  <label>Gender</label>
+  <input type="radio" name="Male" > Male <input type="radio" name="Female"> Female
+  <br>
+  <label >Email</label>
+  <input type="email" name="email"><br>
+  
+</Fieldset>
+
+<textarea name="comment">TEAMS AND CONDITIONS...</textarea><BR>
+<input type="submit" name="submit" value="Send Form">
+<input type="reset" name="reset" value="Clear form">
+  </form>
+</body>
+</html>
+
